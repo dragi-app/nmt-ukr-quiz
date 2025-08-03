@@ -1,0 +1,2444 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" />
+		<title>
+		</title>
+		<style>
+			body { font-family:Calibri; font-size:12pt }
+			p { margin:0pt }
+@media (max-width: 900px) { 
+img { 
+   max-width: 100%;
+   height: auto;
+}
+
+.table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+}	
+
+
+		</style>
+	</head>
+	<body>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&lt;!DOCTYPE html&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&lt;html lang="uk"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&lt;head&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;meta charset="UTF-8" /&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;title&gt;Старт-тест НМТ (українська мова)&lt;/title&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&amp;display=swap" rel="stylesheet" /&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;style&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">:root {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">--primary:#8e44ad;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">--primary-light:#f5ecff;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">--secondary:#ff8c32;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">--bg:#f7f7fb;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">--radius:14px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">--max-width:900px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">*,*::before,*::after{box-sizing:border-box}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">body{margin:0;font-family:"Nunito",Arial,Helvetica,sans-serif;background:var(--bg);color:#222;padding:20px}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">h1{font-weight:700;text-align:center;color:var(--primary);margin-bottom:12px}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">#timer{display:inline-block;padding:6px 18px;font-size:1.1rem;font-weight:700;color:#fff;background:var(--primary);border-radius:999px;margin:0 auto 28px;box-shadow:0 2px 6px rgba(0,0,0,.12)}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">form{max-width:var(--max-width);margin:0 auto;padding:0 10px}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.card{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">border-radius:14px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">background:#fff;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">box-shadow:0 4px 10px rgba(0,0,0,.05);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">padding:20px 24px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">margin-bottom:26px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.task-title{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">font-weight:700;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">font-size:1rem;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">color:#333;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">margin:0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">line-height:1.3;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">overflow-wrap:anywhere;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">white-space: pre-wrap;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">fieldset{position:relative;border:none;border-radius:14px;background:#fff;box-shadow:0 4px 10px rgba(0,0,0,.05);padding:24px 24px 16px;margin-bottom:26px}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">legend{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">position:absolute;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">left:-9999px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">width:1px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">height:1px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">overflow:hidden;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">label.option{display:flex;align-items:flex-start;gap:10px;width:100%;margin:8px 0;padding:10px 14px;border:2px solid transparent;border-radius:14px;cursor:pointer;transition:background .2s,border .2s;position:relative}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">label.option:hover{background:var(--primary-light)}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">label.option.chosen{border-color:var(--primary);background:var(--primary-light)}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.option.correct{border-color:#2e7d32;background:#e6f4ea}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.radio-wrap{position:relative;flex:0 0 24px;height:24px}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.radio-wrap input{position:absolute;inset:0;opacity:0;cursor:pointer}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.radio-disk{width:24px;height:24px;border:2px solid #bbb;border-radius:50%;display:inline-block;pointer-events:none;transition:border .2s,background .2s;position:relative}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.option.correct .radio-disk{border-color:#2e7d32;background:#2e7d32}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.option.correct .radio-disk::after{content:"";position:absolute;inset:6px;background:#fff;border-radius:50%}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.matching-grid{display:flex;flex-direction:column;gap:12px;margin-top:12px}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.match-row{display:flex;align-items:flex-start;gap:10px;margin:6px 0;flex-wrap:wrap}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.match-left{flex:1;min-width:220px;font-weight:600;word-break:break-word}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.match-right{flex:0 0 220px}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.match-right select{width:100%;padding:6px;border-radius:8px;border:1px solid #ccc;font-size:0.95rem}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">#submitBtn{display:block;width:100%;max-width:380px;margin:36px auto 14px;padding:14px 0;font-size:1.05rem;font-weight:600;color:#fff;background:var(--primary);border:none;border-radius:999px;cursor:pointer;box-shadow:0 4px 10px rgba(0,0,0,.15);transition:background .2s,transform .1s}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">#submitBtn:hover{background:var(--secondary)}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">#submitBtn:active{transform:scale(.97)}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">#result{max-width:950px;margin:0 auto;text-align:center;background:#fff;padding:36px 28px;border-radius:14px;box-shadow:0 4px 12px rgba(0,0,0,.08)}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">#score{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">font-size:0.95rem;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">font-weight:600;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">color:#444;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">margin-bottom:4px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">#scaledScore{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">font-size:1.35rem;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">font-weight:700;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">color:var(--primary);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">margin:4px 0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.recommendation-block{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">white-space:pre-line;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">line-height:1.2;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">margin-top:6px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">font-size:0.95rem;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.match-feedback{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">margin-top:6px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">font-size:.9rem;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.correct-pair{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">color:#2e7d32;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">font-weight:600;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.incorrect-pair{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">color:#c62828;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">font-weight:600;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">button.reload{margin-top:28px;background:var(--secondary);color:#fff;border:none;padding:12px 20px;border-radius:999px;cursor:pointer}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.subinfo{font-size:.9rem;color:#555;margin-top:4px}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;/style&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&lt;/head&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&lt;body&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;h1&gt;Старт-тест НМТ з української мови&lt;/h1&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;div id="timer"&gt;Залишилось — 60:00&lt;/div&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;form id="quizForm" aria-label="Тест з 30 завдань"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;div id="questionsContainer"&gt;&lt;/div&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;!-- TODO: вставити додаткові блоки/завдання (напр. есе, відкриті відповіді тощо) тут --&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;button id="submitBtn" type="button"&gt;Завершити тест&lt;/button&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;/form&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;div id="result" style="display:none" aria-live="polite"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;h2&gt;Результати тесту&lt;/h2&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;p id="score"&gt;&lt;/p&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;p id="scaledScore"&gt;&lt;/p&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;div id="recommendation" class="recommendation-block"&gt;&lt;/div&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;button class="reload" onclick="location.reload()"&gt;Спробувати ще раз&lt;/button&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;/div&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;script&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">(function(){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"use strict";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const total = 60*60;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const timer = document.getElementById("timer");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const form = document.getElementById("quizForm");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const result = document.getElementById("result");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const submit = document.getElementById("submitBtn");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">let s = total;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const it = setInterval(()=&gt;{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(s&lt;=0){ finish(); return; }</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const m = String(Math.floor(s/60)).padStart(2,"0"), sec = String(s%60).padStart(2,"0");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">timer.textContent = `Залишилось — ${m}:${sec}`;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">s--;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},1000);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const scaleMap = {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">7:100,8:105,9:110,10:115,11:120,12:125,13:131,14:134,15:136,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">16:138,17:140,18:142,19:143,20:144,21:145,22:146,23:148,24:149,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">25:150,26:152,27:154,28:156,29:157,30:159,31:160,32:162,33:163,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">34:165,35:167,36:170,37:172,38:175,39:177,40:180,41:183,42:186,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">43:191,44:195,45:200</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">};</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">function getScaledScore(raw){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(raw &gt;= 7){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(scaleMap[raw] !== undefined) return scaleMap[raw];</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(raw &gt; 45) return 200;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">return Math.round( (raw / 7) * 100 );</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const introInvestment = `1. Визначаючись з інвестуванням, зважають на незалежність вартості вибраного обʼєкта від політичної ситуації в державі, захищеність від утручання третіх сторін у процес володіння та розпорядження ним тощо.</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">2. Таку ситуацію пояснюють нестабільністю курсів, тому громадяни прагнуть вкладати кошти в іноземну валюту, коштовні речі, нерухомість та дорогоцінні метали.</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">3. Отже, цифрова валюта стає популярною в деяких країнах, відтак формують інфраструктуру її продажу через термінали, розширюють мережу комерційних і виробничих структур, які уможливлюють розрахунок електронними грішми.</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">4. Останнім часом дехто вважає, що бажаним критеріям відповідає новий інструмент фінансового ринку – електронні гроші, основними перевагами яких є конфіденційність, незалежність від держави, відсутність територіальних і часових обмежень у трансакціях, низька вартість обслуговування.</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">5. У період поглиблення кризових явищ у світовій економіці, люди в багатьох країнах часто уникають заощаджень у національних грошових одиницях.`;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const questions = [</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q1",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "1. Префікс с- треба писати в усіх словах рядка",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "..качати, ..формувати, ..поконвіків",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "..товщення, ..жалитися, ..поєний",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "..цідження, ..худнути, ..тягнення",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "..підлоба, ..чеплений, ..касування"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "A",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "А) ..качати, ..формувати, ..поконвіків"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q2",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "2. Подвоєні букви треба писати у формі орудного відмінка однини в усіх словах рядка.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "папороть, сіль, велич, стриманість",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "магістраль, мазь, мігрень, мідь",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "верф, паралель, подорож, ціль",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "кров, заметіль, емаль, світлотінь"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "B",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Б) магістраль, мазь, мігрень, мідь"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q3",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "3. Букву и треба писати на місці пропуску в усіх словах рядка",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "мер..діан, теор..тичний, др..жати",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "х..мерний, завм..рання, д..ригент",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "тр..вожний, абр..кос, м..тушливий",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "височ..на, вiдгр..міти, ч..рговий"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "B",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Б) х..мерний, завм..рання, д..ригент"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q4",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "4. НЕМАЄ орфографічних помилок у варіанті",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "Починаймо кожен ранок із подяки за все, що маємо, атже так ми вчимося цінувати дорогоціні миті, відчуваємо любов та турботу рідних, помічаємо щедрість світу.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "Щоб почуватися щасливими, не потрібно шукати перо жарптиці: ви маєте лише дотримуватися кількох простих порад, перетворивши їх на щоденні ритуали.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "Щодня знаходьмо джерело радості, щоб наповнитися силою, накопичити позитивну енергію для нових справ, подолання тимчасових труднощів і підкорення вершин.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "Поважаймо не лише власний вибір, а й погляди та переконання інших людей, щохвилинно пам’ятаючи, що кожен із нас має не заперечне право бути собою."</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "C",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "В) Щодня знаходьмо джерело радості, щоб наповнитися силою, накопичити позитивну енергію для нових справ, подолання тимчасових труднощів і підкорення вершин."</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q5",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "5. Правильно виділено букви на позначення наголошених голосних у всіх словах рядка, ОКРІМ:",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "д[и]влячись у дов[і]дник, завчас[у] занест[и]",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "нов[і] жалюз[і], зобраз[и]ти триз[у]б",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "щодобов[е] завд[а]ння, кор[и]сна кропив[а]",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "фахов[и]й катал[о]г, багатораз[о]ві витр[а]ти"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "D",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Г) фахов[и]й катал[о]г, багатораз[о]ві витр[а]ти"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q6",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "6. Разом треба писати всі слова в рядку",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "до/нині, за/надто, до/вподоби",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "без/упину, на/весні, від/тоді",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "у/літку, по/тихеньку, на/вічно",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "на/чисто, з/ранку, в/основному"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "C",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "В) у/літку, по/тихеньку, на/вічно"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q7",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "7. Апостроф треба писати на місці пропуску в усіх словах рядка, ОКРІМ:",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "підв..ялений, арф'ярка, роз'їхатися",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "верб'я, подзв'якувати, перем'ятий",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "під'юджувати, солов'їний, стерв'ятник",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "між'ярусний, сузір'я, розм'якшити"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "B",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Б) верб'я, подзв'якувати, перем'ятий"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q8",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "8. Однаковий звук позначають букви, виділені в кожному слові рядка",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "контрастний, шістдесят, четвер",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "здається, молотьба, батько",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "подружка, дужечка, джгутовий",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "рюкзак, аґрус, ґрунтознавець"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "D",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Г) рюкзак, аґрус, ґрунтознавець"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q9",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "9. Префікс від- має однакове значення в усіх словах, ОКРІМ",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "Відробити",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "Відлетіти",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "Відповзти",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "Відбігти",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "Відплисти"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "A",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "А) Відробити"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q10",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "10. Лексична помилка є в рядку",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "здійснити перевірку",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "ухвалити рішення",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "співставити факти",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "підбити підсумки",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "взяти на себе"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "C",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "В) співставити факти"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q11",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "11. Прочитайте речення (цифра позначає попередній розділовий знак). Серіал «І будуть люди» побудовано у формі саги,(1) і в ній крізь призму життя звичайних людей показано турбулентні етапи XX століття:(2) Першу світову війну,(3) прихід радянської влади,(4) які кожен герой сприйняв з позиції власної правди,(5) проте всіх дійових осіб обʼєднало бажання знайти своє місце в новому історичному вимірі. НЕПРАВИЛЬНО обґрунтовано вживання розділових знаків у рядку:",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "кома 1 – між частинами складного речення, що поєднані сурядним звʼязком",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "двокрапка 2 – після узагальнювального слова",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "кома 3 – при однорідних членах речення",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "кома 5 – між частинами складного речення, що поєднані безсполучниковим звʼязком",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "кома 4 – між частинами складного речення, що поєднані підрядним звʼязком"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "D",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Д) кома 5 – між частинами складного речення, що поєднані безсполучниковим звʼязком"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q12",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "12. Редагування потребує речення",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "Беручи в руки звичайний олівець з гумкою, ви ніколи не подумаєте, що людство витратило на цей винахід близько тисячоліття.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "Ще стародавні греки послуговувалися графітовими паличками, використовуючи їх для малювання.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "Потім секрет виготовлення було втрачено, і лише ураганом 1565-го року, промчавши англійським графством Камберленд, було відкрито родовище невідомого матеріалу – графіту.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "У 1858-му році Хаймен Ліпман з Філадельфії запатентував олівець з гумкою, відтак кожен отримав можливість писати, одразу витираючи помилки.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "Цікаво, що експериментатори використали до кінця один олівець середньої твердості, написавши 45 тисяч слів."</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "C",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "В) Потім секрет виготовлення було втрачено, і лише ураганом 1565-го року, промчавши англійським графством Камберленд, було відкрито родовище невідомого матеріалу – графіту."</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q13",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "13. НЕМАЄ лексичної помилки в реченні",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "Багато хто з нас мріяв добитися великого успіху й зайняти вище місце в суспільному житті.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "Часто ми не придаємо значення відношенням з людьми, що, однак, розкривають суть і нашого «я».",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "Кожна слідуюча сходинка життя опирається на результати нашого попереднього розвитку.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "Чиста совість мотивує людину на вчинки, які ніколи не змусять жалкувати про здійснене.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "Коли посторонні люди замічають наші позитивні риси, це тішить і надихає на гарні вчинки."</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "D",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Г) Чиста совість мотивує людину на вчинки, які ніколи не змусять жалкувати про здійснене."</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q14",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "14. НЕПРАВИЛЬНО оформлено пряму мову в реченні",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "«Щоб стати особистістю, – стверджував український філософ Іван Бойченко, – потрібно знайти, виховати й навчити себе, визначити власне місце в суспільстві, стати його частиною і чинити гідно».",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "«Фізкультура повернула мені все: серце, гнучкість, витривалість! — говорив учений-медик Микола Амосов і наголошував: — Але головне — працездатність, мабуть, найдорожче з усього, чим живе людина».",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "Відомий педагог Василь Сухомлинський писав: «Самовиховання потребує кількох важливих могутніх стимулів: почуття власної гідності, поваги до себе, бажання стати сьогодні кращим, ніж був учора».",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "«Найкращою характеристикою людини є мета, якої вона прагне» — уважав римський філософ Марк Аврелій.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "«Хто просувається в науках, але відстає в морай, той іде радше назад, ніж уперед!» — наголошував знаний давньогрецький філософ Арістотель."</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "D",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Г) «Найкращою характеристикою людини є мета, якої вона прагне» — уважав римський філософ Марк Аврелій."</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q15",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "15. Синонімом до слова \"достойний\" є",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "схожий",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "вартісний",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "цінний",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "гідний",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "певний"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "D",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Г) гідний"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q16",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "16. Повідомляти _______ курсів водіння про _____________ наслідки порушень на автошляхах так само важливо, як і навчати _______ дорожнього руху.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "слухачам, самі ймовірні, правил",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "слухачів, найбільш імовірніші, правилам",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "слухачів, найімовірніші, правил",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "слухачам, найімовірні, правилам",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "слухачів, найбільш імовірні, правилам"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "C",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "В) слухачів, найімовірніші, правил"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q17",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "17. Демонстрація модних ______ нової колекції ______ відбудеться через _______.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "пальт, Тараса Демиденка, півтори місяці",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "пальто, Тараса Демиденка, півтора місяців",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "пальто, Тараса Демиденко, півтора місяця",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "пальт, Тараса Демиденка, півтора місяця",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "пальт, Тараса Демиденка, півтора місяці"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "D",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Г) пальт, Тараса Демиденка, півтора місяця"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q18",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "18. Цьогоріч ________ чотири _______ смородини на _______ ділянку, а любисток, навпаки, – у затінок.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "пересаджу, кущів, світлішу",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "пересажу, кущі, більш світлішу",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "пересажду, куща, більш світлу",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "пересаджу, кущі, світлішу",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "пересаджу, куща, більш світлу"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "D",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Г) пересаджу, кущі, світлішу"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q19",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "19. Медичний безпілотник набирає швидкість близько ________ кілометрів за годину й підвищує шанси на виживання під час серцевого нападу ________ відсотків.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "дев’яноста, від восьми до восьмидесятьох",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "дев’яносто, від вісьми до вісімдесяти",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "дев’яносто, від восьми до вісімдесяти",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "дев’яноста, від вісьми до вісімдесяти",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "дев’яноста, від восьми до вісімдесяти"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "E",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Д) дев’яноста, від восьми до вісімдесяти"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q20",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "20. ________, сестра знову експериментувала на кухні й приготувала кольрабі, ________ у вершковому соусі.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "Андрій, тушковану",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "Андрію, тушковану",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "Андріє, тушковане",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "Андрію, тушковане",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "Андріє, тушкований"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "B",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Б) Андрію, тушковану"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q21",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: `21. ${introInvestment}\nОднорідні підмети є в реченні, позначеному`,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "1",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "2",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "3",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "4",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "5"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "D",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Г) 4"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q22",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: `22. ${introInvestment}\nПрикладка є в реченні, позначеному`,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "1",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "2",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "3",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "4",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "5"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "D",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Г) 4"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q23",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: `23. ${introInvestment}\nПунктуаційна помилка є в реченні, позначеному:`,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "1",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "2",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "3",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "4",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "5"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "E",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Д) 5"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q24",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: `24. ${introInvestment}\nУ формі знахідного відмінка вжито всі слова, ОКРІМ:`,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "утручання",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "процес",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "кошти",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "термінали",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "період"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "A",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "А) утручання"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "q25",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "mcq",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: `25. ${introInvestment}\nПервинний текст буде відновлено, якщо речення розташувати в послідовності, запропонованій у рядку:`,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">options: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">A: "5 → 1 → 2 → 4 → 3",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">B: "5 → 3 → 1 → 4 → 2",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">C: "5 → 2 → 4 → 1 → 3",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">D: "5 → 3 → 4 → 1 → 2",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">E: "5 → 2 → 1 → 4 → 3"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correct: "E",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">answerText: "Д) 5 → 2 → 1 → 4 → 3"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "match1",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "matching",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "26. Поєднайте виділені фрагменти простих (1–4) і складних (А–Д) речень за подібністю синтаксичного значення.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">left: [</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"1. Посткросинг – проєкт, створений [для обміну] листівками між представниками різних країн.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"2. Незнайомці [випадковим чином] надсилають одне одному поштівки з різними зображеннями.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"3. [Після реєстрації] на спеціальному сайті вони отримують пʼять адрес із різних куточків світу.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"4. [Завдяки популярності] посткросингу на ринку України зʼявилися надзвичайно цікаві витвори сучасних ілюстраторів."</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">],</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">right: [</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"А) Листівки надсилають людям з різних континентів, [щоб розповісти про себе, рідні місця, своє захоплення].",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Б) Найціннішими є тексти на звороті поштівок, [адже написані вони від руки й передають частинку душі адресанта].",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"В) Часто відправники намагаються зробити так, [щоб їхня листівка була особливою], наприклад, виготовляють її власноруч.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Г) [Якщо під час реєстрації ви написали про свої вподобання], то участь у посткросингу стає ще цікавішою.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Д) [Коли проєкт набрав обертів], учасники почали обмінюватися ще й марками, світлинами, улаштовувати конкурси, лотереї."</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">],</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correctMap: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">0: 0,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">1: 2,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">2: 4,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">3: 1</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "match2",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "matching",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "27. З’ясуйте, яким членом речення (А – Д) є виділені в реченні слова (1–4).",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">left: [</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"1. що",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"2. обабіч",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"3. то",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"4. шарудіння"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">],</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">right: [</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"А) іменник",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Б) сполучник",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"В) прийменник",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Г) займенник",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Д) прислівник"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">],</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correctMap: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">0: 3,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">1: 4,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">2: 1,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">3: 0</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "match3",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "matching",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "28. Доберіть приклад (А – Д) до кожного типу відокремленого члена речення (1–4).",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">left: [</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"1. додаток",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"2. обставина",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"3. означення",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"4. прикладка (різновид означення)"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">],</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">right: [</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"А) Заварюємо зелений чай, проціджуємо його в невелику посудину, накриваємо та ставимо на вогонь.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Б) У чай додаємо спеції, зокрема кардамон, тертий імбир, гвоздику, і тримаємо на слабкому вогні хвилин двадцять.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"В) Наприкінці додаємо для аромату лимонний чи апельсиновий сік, вичавлений незадовго до вживання.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Г) Далі чай знімаємо з вогню й удруге проціджуємо, даючи напоєві охолонути.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Д) Чай краще пити гарячим, хоч і холодним він не втратить свого шарму – легкого східного смаку."</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">],</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correctMap: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">0: 1,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">1: 3,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">2: 2,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">3: 4</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "match4",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "matching",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "29. Доберіть приклад (А – Д) до кожного типу складного речення (1–4).",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">left: [</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"1. Складносурядне",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"2. Складнопідрядне",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"3. Безсполучникове",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"4. З різними видами зв’язку"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">],</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">right: [</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"А) Деякі мешканці савани, а саме: антилопи, зебри – утворюють табуни та своєю чисельністю відлякують хижаків.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Б) Газель схожа на оленя, але вона граційніша та має характерні роги, вигнуті у форму ліри.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"В) Жирафа – найвища тварина на планеті: її зріст сягає п’яти метрів.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Г) Хоча носороги мають слабкий зір, проте цю їхню ваду компенсують добре розвинуті інші зовнішні чуття (слух та нюх).",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Д) Людиноподібні мавпи мають високий рівень інтелекту, у них розвинені певні мовні навички, а шимпанзе – один з найрозумніших приматів."</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">],</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correctMap: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">0: 1,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">1: 3,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">2: 2,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">3: 4</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">},</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">id: "match5",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">type: "matching",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">prompt: "30. Доберіть до кожного речення (1–4), у якому зроблено пропуск, відповідний за значенням фразеологізм (А–Д).",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">left: [</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"1. Коли вирішуєте [...] приготування їжі, варто враховувати індивідуальні потреби й смакові вподобання кожного члена родини.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"2. Рекомендуємо назавжди [...], складаючи меню на тиждень, одночасно плануйте список того, що треба купити.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"3. Наявність плану харчування й списку покупок допомагає [...] та не блукати між вітринами в пошуках необхідного.",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"4. Готуйте для рідних із задоволенням, експериментуйте і можете не [...] іноді невдалих результатів кулінарних експромтів."</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">],</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">right: [</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"А) взяти втямки",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Б) взяти голову в руки",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"В) брати ноги на плечі",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Г) взяти на себе",</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">"Д) брати близько до серця"</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">],</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correctMap: {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">0: 3,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">1: 0,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">2: 1,</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">3: 4</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">];</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const container = document.getElementById("questionsContainer");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">questions.forEach((q, idx)=&gt;{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const fs = document.createElement("fieldset");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">fs.dataset.qid = q.id;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">fs.setAttribute("aria-label", `Питання ${q.id}`);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const legend = document.createElement("legend");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">legend.textContent = q.prompt.replace(/\*\*/g,"");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">fs.appendChild(legend);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const cardTitle = document.createElement("p");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">cardTitle.className = "task-title";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">cardTitle.innerHTML = q.prompt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">fs.appendChild(cardTitle);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(q.type === "mcq"){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">fs.dataset.correct = q.correct;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">fs.dataset.answerText = q.answerText || mapLetter(q.correct);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">Object.entries(q.options).forEach(([key, text])=&gt;{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const label = document.createElement("label");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">label.className = "option";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">label.setAttribute("aria-label", `Варіант ${key}`);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">label.innerHTML = `</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;span class="radio-wrap"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;span class="radio-disk"&gt;&lt;/span&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;input type="radio" name="${q.id}" value="${key}" /&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;/span&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;strong&gt;${letterDisplay(key)}&lt;/strong&gt; ${text}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">`;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">fs.appendChild(label);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">});</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">} else if(q.type === "matching"){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">fs.dataset.type = "matching";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">fs.dataset.correctMap = JSON.stringify(q.correctMap);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const grid = document.createElement("div");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">grid.className = "matching-grid";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">q.left.forEach((leftText, li)=&gt;{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const row = document.createElement("div");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">row.className = "match-row";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const leftDiv = document.createElement("div");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">leftDiv.className = "match-left";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">leftDiv.textContent = leftText;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const rightDiv = document.createElement("div");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">rightDiv.className = "match-right";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const select = document.createElement("select");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">select.name = `${q.id}_item${li}`;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const emptyOpt = document.createElement("option");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">emptyOpt.value = "";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">emptyOpt.textContent = "—";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">select.appendChild(emptyOpt);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">q.right.forEach((rightText, ri)=&gt;{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const opt = document.createElement("option");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">opt.value = ri;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">opt.textContent = rightText;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">select.appendChild(opt);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">});</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">rightDiv.appendChild(select);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">row.appendChild(leftDiv);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">row.appendChild(rightDiv);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">grid.appendChild(row);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">});</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">fs.appendChild(grid);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const info = document.createElement("div");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">info.className = "subinfo";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">info.textContent = "За кожну правильну пару — 1 бал.";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">fs.appendChild(info);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">container.appendChild(fs);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">});</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">form.addEventListener("change", e=&gt;{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(e.target.matches("input[type=radio]")){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const name = e.target.name;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">form.querySelectorAll(`input[name="${name}"]`).forEach(i=&gt;{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const lbl = i.closest("label.option");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">lbl &amp;&amp; lbl.classList.remove("chosen");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">});</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const chosenLabel = e.target.closest("label.option");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">chosenLabel &amp;&amp; chosenLabel.classList.add("chosen");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">});</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">submit.addEventListener("click", finish);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">form.addEventListener("submit", e=&gt;{ e.preventDefault(); finish(); });</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">function finish(){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">clearInterval(it);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">form.querySelectorAll("input, select").forEach(i=&gt;i.disabled=true);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">calc();</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">result.style.display="block";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">window.scrollTo({top:0,behavior:"smooth"});</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">function calc(){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">let rawScore = 0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">questions.forEach((q, idx)=&gt;{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(q.type === "mcq"){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const fs = document.querySelector(`fieldset[data-qid="${q.id}"]`);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const selectedInput = fs.querySelector(`input[name="${q.id}"]:checked`);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const selectedValue = selectedInput ? selectedInput.value : null;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const correct = q.correct;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const correctLabel = fs.querySelector(`input[value="${correct}"]`)?.closest("label.option");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(correctLabel){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correctLabel.classList.add("correct");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(selectedValue === correct){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">rawScore += 1;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">} else if(q.type === "matching"){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const fs = document.querySelector(`fieldset[data-qid="${q.id}"]`);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const correctMap = JSON.parse(fs.dataset.correctMap);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">let correctPairs = 0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const existingFeedback = fs.querySelector(".match-feedback");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(existingFeedback) existingFeedback.remove();</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const feedbackDiv = document.createElement("div");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">feedbackDiv.className = "match-feedback";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">q.left.forEach((leftText, li)=&gt;{</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const select = fs.querySelector(`select[name="${q.id}_item${li}"]`);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const chosen = select ? select.value : "";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const expected = String(correctMap[li]);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const rowFeedback = document.createElement("div");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(chosen === expected){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">correctPairs +=1;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">rowFeedback.innerHTML = `✔ ${leftText} — ${q.right[expected]}`;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">rowFeedback.classList.add("correct-pair");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">} else {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">rowFeedback.innerHTML = `✖ ${leftText} — обране: ${chosen !== "" ? q.right[chosen] : "немає"}; правильне: ${q.right[expected]}.`;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">rowFeedback.classList.add("incorrect-pair");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">feedbackDiv.appendChild(rowFeedback);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">});</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">rawScore += correctPairs;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">fs.appendChild(feedbackDiv);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">});</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const totalPossible = 25 + 5*4;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const scoreEl = document.getElementById("score");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(rawScore &lt; 7){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">scoreEl.textContent = `Сирий бал: ${rawScore} із ${totalPossible} — не склав(ла).`;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">} else {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">scoreEl.textContent = `Сирий бал: ${rawScore} із ${totalPossible}.`;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const scaled = getScaledScore(rawScore);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">document.getElementById("scaledScore").innerHTML = `&lt;strong style="color: var(--primary)"&gt;За 100–200 бальною шкалою: ${scaled}.&lt;/strong&gt;`;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const recEl = document.getElementById("recommendation");</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(scaled &lt; 170){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">recEl.innerHTML = `&lt;p&gt;&lt;b&gt;Не задоволений(а) результатом?&lt;/b&gt;&lt;/p&gt;\nУ нас є рішення!\n&lt;p&gt;&lt;b&gt;Завантажуй застосунок Драгі&lt;/b&gt; та отримуй доступ до унікальної, суперефективної та цікавої методики навчання просто у себе в телефоні🤓&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Спробуй першу тему безкоштовно!&lt;/b&gt;&lt;/p&gt;`;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">} else {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">recEl.innerHTML = `&lt;p&gt;&lt;b&gt;Покращи свої результати у форматі ефективної гри👇&lt;/b&gt;&lt;/p&gt;\n&lt;p&gt;&lt;b&gt;Завантажуй застосунок Драгі&lt;/b&gt; та отримуй доступ до унікальної, суперефективної та цікавої методики навчання просто у себе в телефоні🤓&lt;/p&gt;\n&lt;p&gt;Спробуй першу тему &lt;b&gt;безкоштовно!&lt;/b&gt;&lt;/p&gt; І удачі на шляху до Просунутого рівня!</span><span style="font-family:'Segoe UI Emoji'">😇</span><span style="font-family:Helvetica">`;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">function rec(raw, tot){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const p = raw / tot * 100;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(p&gt;=80) return "Чудово! Ваш рівень підготовки дуже високий.";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">if(p&gt;=55) return "Непогано, але потренуйтеся ще.";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">return "Показник низький: приділіть увагу теорії.";</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">function mapLetter(val){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">return {A:"А",B:"Б",C:"В",D:"Г",E:"Д"}[val] || val;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">function letterDisplay(val){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const map = {A:"А)",B:"Б)",C:"В)",D:"Г)",E:"Д)"};</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">return map[val] || val;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">function letterFromIndex(idx){</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">const m = {0:"А",1:"Б",2:"В",3:"Г",4:"Д"};</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">return m[String(idx)] || idx;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">})();</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;/script&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&lt;/body&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&lt;/html&gt;</span>
+			</p>
+	<p style="bottom: 10px; right: 10px; position: absolute;"><a href="https://wordtohtml.net" target="_blank" style="font-size:11px; color: #d0d0d0">Mit WordToHTML.net in HTML umgewandelt</a></p>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"96962d7de9245b13","version":"2025.7.0","r":1,"token":"4581d6a58cf94e929fad52deda295622","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+</body>
+</html>
